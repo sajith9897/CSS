@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(224, 240, 255);
+    align-items: center;
+    text-align: center;
+    margin: 300px 150px;
+}
+
+.first-box {
+    border: 20px solid #002b70;
+    padding: 20px;
+    background-color: rgb(255, 213, 159);
+}
+
+.second-box {
+    border: 15px solid rgb(203, 18, 18);
+    padding: 15px;
+    background-color: antiquewhite;
+}
+.third-box {
+    border: 10px solid rgba(24, 201, 80, 0.532);
+    padding: 30px;
+    background-color: aliceblue;
+}
