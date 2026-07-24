@@ -1,18 +1,14 @@
 body{
     background-color: rgb(4, 0, 23);
     color: rgb(2, 17, 30);
-
-    display: flex;
-    justify-content: center;
     align-items: center;
-    min-height: 900px;
 
 }
 .card {
-
+    margin: 40px auto;
     width: 450px;
     height: 600px;
-    padding: 20px; margin: 20px;
+    padding: 20px;
     background-color: rgb(198, 232, 255);
     text-align: center;
     border: 4px solid rgb(0, 115, 255);
@@ -36,5 +32,5 @@ button {
     background-color: rgb(0, 51, 161);
     color: white;
     padding: 10px 25px;
-    border-radius: 10px;
+    border-radius: 40px;
 }
