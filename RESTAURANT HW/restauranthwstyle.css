@@ -1,0 +1,46 @@
+body {
+background-color: beige;
+}
+h3 {
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(138, 39, 0); font-size: larger;
+}
+
+p {
+    text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 40px;
+    text-transform: uppercase; letter-spacing: 3px; word-spacing: 5px;
+    color: rgb(168, 40, 1);
+}
+p.small {
+    font-size: 25px;
+
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+}
+table, th,td {
+    border: 1px solid black;
+    align-items: center;
+    vertical-align: center;
+    text-align: center;
+    padding: 1%;
+}
+th {
+    padding: 2%; background-color: rgba(255, 216, 159, 0.493);
+}
+
+nav {
+    text-align: center;
+    margin-top: 40px;
+}
+a {
+    padding: 10px;
+    color: brown;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 0, 0);
+}
