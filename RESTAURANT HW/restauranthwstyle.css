@@ -37,10 +37,15 @@ nav {
     margin-top: 40px;
 }
 a {
-    padding: 10px;
+    display: inline-block;
+    padding: 20px;
     color: brown;
     text-decoration: none;
+    transition: transfrom 0.3s ease, color 0.3s ease; 
+    
 }
 a:hover {
-    color: rgb(255, 0, 0);
+    color: red;
+    transform: scale(1.05);
+    
 }
