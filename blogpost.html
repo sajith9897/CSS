@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <style>
+        .content p::first-line {
+            font-weight: bold;
+        }
+        .content p::first-letter {
+            font-size: xx-large;
+            color: green;
+        }
+        .content blockquote::before{
+            content: "“";
+        }
+        .content blockquote::after{
+            content: "”";        
+        }
+        .content blockquote {
+            font-size: x-large; font-style: italic; font-family: 'Times New Roman', Times, serif; font-weight: 550;
+        }
+        a {
+            text-decoration: none;
+            color: green;
+        }
+        a:visited {
+            color: blue;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: rgb(0, 46, 2);        
+        }
+        .headings {
+            display: flex;
+            justify-content: space-between;
+        }
+        .headings h4 + h4 {
+            color: red;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>The Psychology of Money</h1>
+        <h4>By - MORGAN HOUSEL</h4>
+        <p>The Psychology of Money by Morgan Housel is a bestselling personal finance book that shifts the focus from mathematical formulas to human behavior. It argues that doing well with money depends less on how smart you are and much more on how you behave.</p>
+        <blockquote>
+            Using your money to buy time and options has a lifestyle benefit that few luxury goods can compete with.
+        </blockquote>
+
+        <a href="https://tiue.uz/wp-content/uploads/2024/02/The-Psychology-of-Money-Morgan-Housel.pdf">Read more</a>
+
+        <div class="headings">
+            <h4>←  Previous Post</h4>
+            <h4>Next Post  →</h4>
+        </div>
+    </div>
+</body>
+</html>
