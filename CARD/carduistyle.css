@@ -1,0 +1,59 @@
+*{
+    font-family: "Inter", sans-serif;
+    
+}
+
+body {
+    background-color: rgb(227, 228, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    width: 400px; height: 400px;
+    border-radius: 15px;
+}
+
+.content {
+    background-color: rgb(229, 214, 242);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    height: 250px;
+}
+
+.content h2 {
+    font-size: 250%;
+}
+
+.content p{
+    margin-top: -5%;
+    font-weight: 500;
+}
+
+.buttons1 {
+    margin: 30px 20px 25px 0;
+}
+.buttons2 {
+    margin: 0 20px 0 0;
+}
+span {
+    background-color: rgb(208, 174, 240);
+    border-radius: 20px; padding: 8px;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end h3 {
+    padding: 0px 0px 0px 20px;
+}
+.end button {
+    margin: 0px 20px 0px 0px;
+    padding: 2px 20px;
+    border: none; border-radius: 15px;
+}
