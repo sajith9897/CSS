@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple web page</title>
+    <style>
+        .section p::first-line{
+            font-weight: bold;
+        }
+        .section p::first-letter{
+            font-size: xx-large;
+            color: red;
+        }
+        .container h3 + h3{
+            color: green;
+        }
+        .links > ul li a{
+            text-decoration: none;
+        }
+        .links ul li:first-child a{
+            color: red;
+        }
+        .links a:link{
+            color: blue;
+        }
+        .links a:visited{
+            color: purple;
+        }
+        .links a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <h1>Lionel Messi</h1>
+        <p>Lionel Messi is a world-famous ⁠Lionel Messi football player from Argentina known for his record eight Ballon d'Or awards, his amazing skill on the field, and his 2022 World Cup victory.</p>
+        <p>In 2004, Messi made his competitive debut for Barcelona at age 17. He gradually established himself as an integral player for the club, and during his first uninterrupted season in 2008–09 he helped Barcelona achieve the first treble in Spanish football. This resulted in Messi winning the first of four consecutive Ballons d'Or, and by the 2011–12 season he had set the European record for most goals in a season and established himself as Barcelona's all-time top scorer.</p>
+    </div>
+
+    <div class="container">
+        <h3>Lionel Messi</h3>
+        <h3>Cristiano Ronaldo</h3>
+    </div>
+
+    <div class="links">
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Lionel_Messi">Lionel Messi</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo">Cristiano Ronaldo</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Lamine_Yamal">Lamine Yamal</a></li>
+        </ul>
+    </div>
+</body>
+</html>
