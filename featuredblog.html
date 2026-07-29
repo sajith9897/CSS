@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Blog Section</title>
+    <style>
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.blog-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: white;
+}
+
+.blog-card{
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.blog-card img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+a[href^="https"]{
+    color: red;
+    font-weight: bold;
+}
+
+
+img[src$=".jpg"]{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+@media (max-width:600px){
+
+    .blog-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-card{
+        width: 90%;
+    }
+
+    .blog-card h2{
+        font-size: 20px;
+    }
+
+    .blog-card a{
+        font-size: 14px;
+    }
+}
+@media (orientation: portrait){
+
+    .blog-section{
+        background-color: lightyellow;
+    }
+
+}
+    </style>
+</head>
+<body>
+
+    <section class="blog-section">
+        <div class="blog-card">
+            <h2>HTML</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsubI1xnS2EsbFC7IKOtHXy3o2yp5zNGHX8-mLk-0nVw&s.jpg" alt="HTML">
+            <p>
+                <a href="https://www.w3schools.com/html/">Read More</a>
+            </p>
+        </div>
+
+        <div class="blog-card">
+            <h2>CSS</h2>
+            <img src="https://t4.ftcdn.net/jpg/00/75/92/23/360_F_75922336_Jz2QgNOx7dnRea9ZI6yQTDtn1vHq5ejF.jpg" alt="CSS">
+            <p>
+                <a href="https://www.w3schools.com/css/">Read More</a>
+            </p>
+        </div>
+
+        <div class="blog-card">
+            <h2>JavaScript</h2>
+            <img src="https://thumbs.dreamstime.com/b/javascript-logo-editorial-illustrative-white-background-eps-download-vector-jpeg-banner-javascript-logo-editorial-illustrative-208329459.jpg" alt="JavaScript">
+            <p>
+                <a href="https://www.w3schools.com/js/">Read More</a>
+            </p>
+        </div>
+    </section>
+</body>
+</html>
