@@ -1,0 +1,49 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    background-color: rgb(124, 48, 124);
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}  
+.productimg {
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 20px 0 20px 0 ;
+}
+.content h2 {
+    font-size: 200%;
+}
+
+.content button {
+    background-color: rgb(88, 4, 88);
+    padding: 15px 30px;
+    border-radius: 22px;
+    color: rgb(15, 167, 104);
+    font-weight: bold;
+    box-shadow: 3px 3px 5px rgb(44, 0, 70);
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .content h2 {
+        font-size: 100%;
+
+    }
+    button {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .content {
+        background-color: lightblue;
+    }
+}
