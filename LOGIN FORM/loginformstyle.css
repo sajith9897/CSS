@@ -1,0 +1,83 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    height: 100vh;
+    font-family:"Inter", sans-serif;
+    
+}
+.left{
+    width: 50%;
+    background:linear-gradient(to bottom,rgb(157, 202, 241), rgb(242, 205, 156));
+}
+.login {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 85%;
+    padding: 30px;
+}
+
+.login-form h2{
+    color: orangered;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(119, 118, 118);
+}
+
+.login-form label {
+    display: block;
+    margin: 15px 0 2px 0;
+    font-weight: 580;
+}
+
+.remember {
+    margin:20px 0 ;
+}
+.remember label {
+    display: inline;
+    font-size: 85%;
+    font-weight: 550;
+}
+
+button {
+    width: 103%;
+    background-color: rgb(230, 61, 0);
+    padding: 10px;
+    color: white;
+    border: none; border-radius: 5px;
+}
+button:hover {
+    background-color: rgb(255, 68, 0);
+    box-shadow: 0 0 5px orangered;
+}
+
+@media(max-width:600px){
+
+    .left{
+        display:none;
+    }
+    .login{
+        width:100%;
+    }
+    .login-form{
+        width:85%;
+    }
+    button {
+        width: 105%;
+    }
+}
