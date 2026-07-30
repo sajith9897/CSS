@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: rgb(227, 228, 230);
+    margin: 40px;
+}
+.cards {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.card {
+    background-color: white;
+    width: 25%; height: auto;
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+
+.content {
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.content h2 {
+    font-size: 200%;
+    margin-bottom:15px;
+}
+
+.content p{
+    font-weight: 540;
+    line-height: 25px;
+    margin-bottom:25px;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.buttons span{
+    padding:8px 16px;
+    border-radius:20px;
+    font-size:15px;
+}
+
+.bottom{
+    display:flex;
+    justify-content:space-between;
+    padding-top:20px;
+}
+
+.bottom h3{
+    font-size:20px;
+}
+
+.bottom button{
+    font-size:26px;
+    padding: 1px 10px;
+    border: none; border-radius: 10px;
+}
+
+.developer {
+    background-color: rgb(229, 214, 242);
+}
+.developer span {
+    background-color: rgb(208, 174, 240);
+}
+
+.designers {
+    background-color: rgb(206, 234, 217);
+}
+.designers span {
+    background-color: rgb(156, 205, 176);
+}
+
+.copywriters {
+    background-color: rgb(242, 243, 203);
+}
+.copywriters span {
+    background-color: rgb(229, 231, 138);
+}
+
+.marketers {
+    background-color: rgb(196, 230, 245);
+}
+.marketers span {
+    background-color: rgb(145, 190, 209);
+}
+
+.videoeditors {
+    background-color: rgb(240, 198, 221);
+}
+.videoeditors span {
+    background-color: rgb(228, 168, 201);
+}
+
+.assistants {
+    background-color: rgb(253, 230, 209);
+}
+.assistants span {
+    background-color: rgb(230, 194, 161);
+}
+
+@media only screen and (max-width:1024px) {
+.card{
+    width:45%;
+    }
+}
+@media only screen and (max-width: 768px) {
+.cards{
+    width:100%;
+    }
+body{
+    padding:20px;
+    }
+
+.card h2{
+    font-size:28px;
+    }
+
+.bottom h3{
+    font-size:24px;
+    }
+}
+
